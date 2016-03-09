@@ -2,7 +2,7 @@
   "name": "gl-react",
   "version": "2.2.0",
   "description": "gl-react share code across gl-react-dom and gl-react-native. You can implement complex effects over images and components, in the descriptive VDOM paradigm",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "compile": "rm -rf lib/ && babel --source-maps -d lib src",
     "prepublish": "npm run compile"
