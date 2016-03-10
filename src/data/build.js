@@ -116,6 +116,7 @@ module.exports = function build (
 
   return {
     shader,
+    ...(props.vdata ? { vdata: props.vdata } : {}),
     uniforms,
     width,
     height,

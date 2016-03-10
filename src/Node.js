@@ -17,6 +17,7 @@ Node.displayName = "GL.Node";
 
 Node.propTypes = {
   shader: PropTypes.any.isRequired,
+  vdata: PropTypes.array,
   uniforms: PropTypes.object,
   children: PropTypes.node,
   width: PropTypes.number,
