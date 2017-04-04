@@ -6,6 +6,7 @@ Contributions are always welcome, no matter how large or small.
 
 ```sh
 git clone https://github.com/gre/gl-react.git
+cd gl-react
 npm run install-all
 npm run build
 ```
